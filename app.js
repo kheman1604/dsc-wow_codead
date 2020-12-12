@@ -99,4 +99,25 @@ var transporter = nodemailer.createTransport({
           
       });
   
-  
+      app.post("/register",function(req,res){
+        var newUser= new User({username:req.body.username,email:req.body.email});
+        User.register(newUser,req.body.password,function(err,user){
+            if(err)
+                {
+                    console.log(err);
+                    res.redirect('/register');
+                }
+            else{
+                var mailOptions = {
+                    from: 'rozgaar833@gmail.com',
+                    to:user.email ,
+                    subject: 'SignUp Confirmation',
+                    text: 'Hi '+user.username+' . Welcome to Rozgaar family!'
+                  };
+                  transporter.sendMail(mailOptions, function(error, info){
+                    if (error) {
+                      console.log(error);
+                    } else {
+                      console.log('Email sent: ' + info.response);
+                    }
+                  });  
