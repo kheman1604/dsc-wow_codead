@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "name": "Rozi Roti",
+  "description": "We all know the plight of migrant labourers post-COVID-19. A lot of the daily-wage-workers rushed to their homes in villages when the lockdown was instated. Now that these restrictions are being lifted, it's a real challenge for them to find employment. A lot of old businesses have been shut down and many others are running at a reduced capacity. Workers can use their simple 2G Feature Phones to register themselves on a nationwide database of workers actively seeking for employment by just sending a message.",
+  "type": "web",
+    "cursor":true,
+  "launch_path": "/mpin",
+  "developer": {
+    "name": "Team Seal"
+  },
+   "icons": {
+    "56": "/assets/logo.png",
+     "128": "/assets/logo.png"
+  },
+    
+    
+  "permissions": {
+    "spatialnavigation-app-manage": {
+      "navigator.spatialNavigationEnabled": true
+    }
+    
+  },
+    "ime_default_softkey_bar":true,
+  "locales": {
+    "en-US": {
+      "name": "Rozi Roti",
+      "subtitle": "Short description for the user",
+      "description": "We all know the plight of migrant labourers post-COVID-19. A lot of the daily-wage-workers rushed to their homes in villages when the lockdown was instated. Now that these restrictions are being lifted, it's a real challenge for them to find employment. A lot of old businesses have been shut down and many others are running at a reduced capacity. Workers can use their simple 2G Feature Phones to register themselves on a nationwide database of workers actively seeking for employment by just sending a message."
+    }
+  },
+    "permissions": {
+  "mobiledata":{},
+  "wifidata":{},
+  "calllog":{}
+},
+  "default_locale": "en-US"
+}
