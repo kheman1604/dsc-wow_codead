@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+	scroll-behavior: smooth;
+}
+
+a{
+	
+	font-size: 30px;
+	text-decoration: none;
+}
+
+#h{
+	margin-top: 8%;
+}
+h2{
+	font-size: 20px;
+	margin-top: 3%;
+	font-family: open Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #ff5e3a;
+}
+
+
+.list{
+	margin-top: 30%;
+}
+h3{
+	font-size: 17px;
+	margin-left:22% ;
+	margin-right: 22%;
+	text-align:justify;
+	color: #cccccb;
+}
+
+h4{
+	font-size: 13px;
+	margin-left:10% ;
+	margin-right: 10%;
+	text-align:justify;
+	color: #636a8b;
+}
+h1{
+	font-family: open Arial, Helvetica, sans-serif;
+	color:#f2f2f0;
+	text-align: center;
+	
+}
+
+h1:hover{
+	color: #ff5e3a;
+}
+
+.left{
+width: 30%;
+height: 0%;
+background:#272e4f;
+}
+
+.right{
+	position: absolute;
+	left: 30%;
+	top: 0%;
+	width: 70%;
+	height: 100%;
+	background-color:#f2f2f0;
+	overflow: scroll;
+}
+
+table{
+    border: 0.5px solid rgb(223, 193, 193);
+    border-collapse: collapse;
+	width: 70%;
+	margin-left: 15%;
+	font-family: 'Open Sans', sans-serif;
+    margin-top: 5%;
+}
+
+table th{
+    border:0.5px solid rgb(171, 195, 211);
+    border-collapse: collapse;
+    color: rgb(241, 236, 229);
+    background-color: #272e4f;
+    padding: 10px;
+    width: 120px;
+}
+
+table td{
+    border: 0.5px solid rgb(223, 193, 193);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 7px;
+    width: 100px;
+}
+
+button{
+	background-color: #272e4f;
+	margin-left:40% ;
+	margin-right: 40%;
+	padding: 1.5%;
+	border: none;
+	outline: none;
+	transition: 0.5s;
+	width: 20%;
+	color: #f2f2f0;
+}
+
+button:hover{
+	background-color: #ff5e3a;
+	transition: 0.5s;
+	cursor: pointer;
+	outline: none;
+}
+  
+
+/*custom scroll bar */
+.right::-webkit-scrollbar {
+	background-color: #a5d1d1;
+	width: 10px;
+  }
+  
+  /* background of the scrollbar except button or resizer */
+  .right::-webkit-scrollbar-track {
+	background-color:none;
+  }
+  /* scrollbar itself */
+  .right::-webkit-scrollbar-thumb {
+  background: #ea5455;
+  transition: 12s;
+  }
+  
+  .right::-webkit-scrollbar-thumb:hover {
+	background:#272343; 
+  border: 1px;
+  transition: 2.5s;
+  }
+  /*custom scroll bar ends here  */
+  
