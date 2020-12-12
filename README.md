@@ -2,10 +2,9 @@
   <h1><a href="http://roziroti.herokuapp.com/">RoziRoti</a></h1>
   <img src="https://user-images.githubusercontent.com/55325257/99894222-f0bd5580-2ca8-11eb-80e5-e7ed38f5694c.png">
   <h3>An efficient way of connecting workers with employers</h>
-  <h3> Submission Under Open Innovation Track for HACK SRM </h3>
+ 
   
   <h2>Website Link : <a href="http://roziroti.herokuapp.com/">Rozi Roti</a><h2>
-  <h2>Youtube Demo Link : <a href="https://www.youtube.com/watch?v=1E4vDdO7tj4">Rozi Roti</a><h2>
     
   
   </div>
@@ -20,7 +19,6 @@
 <p>
 As roziroti is based on both web and native app (feature phone based like jio phone), the main issues we faced were using KAIOS and developing the native app .we did overcome it by reading tons and tons of documentation just to understand how KAIOS works and do we configre the manifest.webapp file to run the app on kaiOS Devices .
 
-Our Ideas is Uder Open Innovation Track .</p>
 
 
 <h2>Technologies Used </h2>
